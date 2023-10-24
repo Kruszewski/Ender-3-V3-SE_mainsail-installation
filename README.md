@@ -4,6 +4,12 @@ Repository for instalation of mainsail on Ender 3 V3 SE
 [MainsailOS](https://docs.mainsail.xyz/)
 [Klipper](https://www.klipper3d.org/)
 
+What you will need:
+- raspberry pi
+- micro sd card for raspberry pi
+- sd card for 3D printer update
+- 3D printer (suprise!)
+
 1. Install MainsailOS throught Raspberry Pi imiger on yout RaspberryPi
 <img width="678" alt="zrzut_ekranu 2023-10-24 o 22 46 56" src="https://github.com/Kruszewski/Ender-3-V3-SE_mainsail-installation/assets/58085942/76ae2dc6-adee-4b42-9ac3-5c452a7dcff5">
 
