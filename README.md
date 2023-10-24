@@ -27,7 +27,10 @@ Run this commands on RaspberryPi:
 ```
 cd ~/klipper/
 make menuconfig
-``` 
+```
+
+When text-based window opens select:
+- ```STM32F103``` with a ```28KiB bootloader``` and serial **(on USART1 PA10/PA9)**
 3. Use SCP protocol to download **klipper.bin** file to your computer.
 
 ```
