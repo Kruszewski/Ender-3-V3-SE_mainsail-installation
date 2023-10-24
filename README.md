@@ -22,7 +22,20 @@ cd ~/klipper/
 make menuconfig
 ``` 
 3. Use SCP protocol to download **klipper.bin** file to your computer.
-4. Upload **klipper.bin** to SD card and plug it into your printer. Connect RaspberryPi to 3D printer.
-5. Head to RaspberryPi IP adress or use default hostname ```http://mainsailos(.local)```
-6. Upload ```printer.cfg``` file in the settings tab.
-7. You are ready to go!
+
+```
+scp remote_username@10.10.0.2:/remote/file.txt /local/directory
+```
+5. Upload **klipper.bin** to SD card and plug it into your printer. Connect RaspberryPi to 3D printer.
+6. Head to RaspberryPi IP adress or use default hostname ```http://mainsailos(.local)```
+7. Upload ```printer.cfg``` file in the settings tab.
+8. You are ready to go!
+
+
+
+
+Sources
+- https://github.com/0xD34D/ender3-v3-se-klipper-config/tree/main
+- https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
+- https://www.klipper3d.org/
+- https://docs.mainsail.xyz/
