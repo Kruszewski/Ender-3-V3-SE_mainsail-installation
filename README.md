@@ -1,5 +1,5 @@
 # Ender-3-V3-SE_mainsail-installation
-Repository for instalation of mainsail on Ender 3 V3 SE
+Guide for installation of mainsail on Ender 3 V3 SE
 
 [MainsailOS](https://docs.mainsail.xyz/)
 [Klipper](https://www.klipper3d.org/)
@@ -34,8 +34,14 @@ When text-based window opens select:
 ### 3. Use SCP protocol to download **klipper.bin** file to your computer.
 
 ```
-scp remote_username@10.10.0.2:/remote/file.txt /local/directory
+pwd
+scp remote_username@ip-adress:/remote/klipper.bin /local/directory
 ```
+*pwd* - displays your current directory
+
+Using defult settings:
+```remote_username``` is **pi**
+
 ### 5. Upload ```klipper.bin``` to SD card and plug it into your printer. Connect RaspberryPi to 3D printer.
 ### 6. Head to RaspberryPi IP adress or use default hostname ```http://mainsailos(.local)```
 ### 7. Upload ```printer.cfg``` file in the settings tab.
