@@ -27,7 +27,7 @@ make menuconfig
 ```
 scp remote_username@10.10.0.2:/remote/file.txt /local/directory
 ```
-5. Upload ```**klipper.bin**``` to SD card and plug it into your printer. Connect RaspberryPi to 3D printer.
+5. Upload ```klipper.bin``` to SD card and plug it into your printer. Connect RaspberryPi to 3D printer.
 6. Head to RaspberryPi IP adress or use default hostname ```http://mainsailos(.local)```
 7. Upload ```printer.cfg``` file in the settings tab.
 8. You are ready to go!
