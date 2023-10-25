@@ -20,7 +20,7 @@ Guide for installation of mainsail on Ender 3 V3 SE
 - Set your username and password ```Default username: **pi**, password: **raspberry**``` 
 
   
-### 1. Build and flash micro-controler
+### 2. Build and flash micro-controler
 
 
 Run this commands on RaspberryPi:
@@ -42,10 +42,10 @@ scp remote_username@ip-adress:/remote/klipper.bin /local/directory
 Using defult settings:
 ```remote_username``` is **pi**
 
-### 1. Upload ```klipper.bin``` to SD card and plug it into your printer. Connect RaspberryPi to 3D printer.
-### 1. Head to RaspberryPi IP adress or use default hostname ```http://mainsailos(.local)```
-### 1. Upload ```printer.cfg``` file in the settings tab.
-### 1. You are ready to go!
+### 4. Upload ```klipper.bin``` to SD card and plug it into your printer. Connect RaspberryPi to 3D printer.
+### 5. Head to RaspberryPi IP adress or use default hostname ```http://mainsailos(.local)```
+### 6. Upload ```printer.cfg``` file in the settings tab.
+### 7. You are ready to go!
 
 
 
