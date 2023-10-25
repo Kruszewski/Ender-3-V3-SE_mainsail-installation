@@ -17,8 +17,10 @@ Guide for installation of mainsail on Ender 3 V3 SE
 - Select ```3D printing``` and then ```Mainsail OS``` (32 bit version is recommended)
 - Choose your storage
 - Enable SSH
-- Set your username and password ```Default username: **pi**, password: **raspberry**``` 
+- Set your username and password
 
+> [!NOTE]
+> Default username: **pi**, password: **raspberry**
   
 ### 2. Build and flash micro-controler
 
